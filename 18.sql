@@ -1,4 +1,4 @@
-SELECT id, match_id
+SELECT team_id, match_id
 FROM statistics
 WHERE distance_covered >= 97
       and distance_covered <= 102

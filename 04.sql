@@ -1,3 +1,4 @@
 SELECT name
 FROM stadiums
-WHERE capacity = (SELECT max(capacity) FROM stadiums);
+ORDER BY capacity DESC
+LIMIT 1;
